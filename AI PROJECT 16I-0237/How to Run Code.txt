@@ -1,0 +1,8 @@
+cd C:\Program Files (x86)\torcs
+wtorcs.exe -nofuel -nodamage
+
+cd C:\Users\JAHANZAIB\Downloads\scr-client-java\scr-client-java\src
+javac -d ../classes scr/*.java
+
+cd C:\Users\JAHANZAIB\Downloads\scr-client-java\scr-client-java\classes
+java scr.Client scr.SimpleDriver
